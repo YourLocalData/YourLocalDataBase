@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <header>
+        <div class="container nav">
+            <a class="brand" href="YourLocalData_Website.html">
+                <img src="logo.png" width="75" height="75">YourLocalDataBase
+            </a>
+            <nav class="links">
+                <a href="offres.html">Offres</a>
+                <a href="services.html">Services</a>
+                <a href="FAQ.html">FAQ</a>
+            </nav>
+            <div class="nav-actions">
+                <a class="button vip" href="vip_page.html" aria-label="VIP">VIP</a>
+                <a class="button primary" href="login.html" aria-label="Se connecter">Votre compte</a>
+            </div>
+        </div>
+        <link rel="stylesheet" href="serverhub-location.css">
+    </header>
+    <body>
+        <main id="top">
+            <section class="hero container">
+                <span class="eyebrow"><span class="dot"></span> Hébergement privé et flexible</span>
+                    <p><h1 class="texte-france">Ton espace. Tes fichiers. Ton contrôle.</h1>
+                    <h2>Votre serveur a proximité</h2>
+                    <p></p>
+                    <p>Loue un emplacement privé français, adapté à tes besoins, avec un stockage clair, une gestion depuis n’importe quel appareil et une formule VIP pour les grands projets.</p>
+                    <div class="hero-actions">
+                        <a class="button primary" href="#offres">Voir les offres →</a>
+                        <a class="button" href="#services">Découvrir le service</a>
+                    </div>
+                    <div class="trust">
+                        <span>Emplacement privé</span><span>Gestion PC et mobile</span><span>Résiliation simple</span>
+                    </div>
+                </section>
+                <section class="section container" id="offres">
+                    <div class="section-head">
+                        <div>
+                            <h2>Choisis ton emplacement</h2>
+                            <p class="section-intro">Chaque abonnement est prévu pour un administrateur pouvant gérer des liens d'accès en lecture seul pour du partage de donnée avec une équipe par exemple</p>
+                        </div>
+                    </div>
+                    <div class="grid">
+                        <article class="card">
+                            <h3>Basic</h3>
+                            <p>Pour découvrir le service et stocker tes premiers fichiers.</p>
+                            <div class="price">1.99 € <small>/ mois</small></div>
+                            <ul class="features">
+                                <li>100 Go de stockage</li><li>1 personne</li><li>∞ lecteur</li>
+                            </ul>
+                            <a class="button" href="offres.html">voir les offres</a>
+                        </article>
+                        <article class="card featured">
+                            <h3>Avancé</h3>
+                            <p>Le meilleur équilibre pour tes projets et serveurs personnels.</p>
+                            <div class="price">6.99 € <small>/ mois</small></div>
+                            <ul class="features">
+                                <li>500 Go de stockage</li><li>1 personne</li><li>∞ lecteur</li>
+                            </ul>
+                            <a class="button primary" href="offres.html">voir les offres</a>
+                        </article>
+                        <article class="card">
+                            <h3>VIP</h3>
+                            <p>Pour les gros projets nécessitant beaucoup d’espace.</p>
+                            <div class="price">11.99€ <small>/ mois</small></div>
+                            <ul class="features">
+                                <li>1 To de stockage</li><li>1 gérant</li><li>∞ lecteur</li>
+                            </ul>
+                            <a class="button" href="offres.html">voir les offres</a>
+                        </article>
+                    </div>
+                </section>
+                <section class="section container" id="services">
+                    <div class="section-head">
+                        <div>
+                            <h2>Simple à gérer</h2>
+                            <p class="section-intro">Tout ce dont tu as besoin pour gérer ton espace sans te perdre dans des réglages compliqués.</p>
+                        </div>
+                    </div>
+                    <div class="split">
+                        <article class="info-card">
+                            <div class="icon">▣</div>
+                            <h3>Emplacement dédié</h3>
+                            <p>Ton espace est séparé des autres clients pour garder une organisation claire et un accès personnel.</p>
+                        </article>
+                        <article class="info-card">
+                            <div class="icon">⌁</div>
+                            <h3>Depuis n’importe où</h3>
+                            <p>Le tableau de bord s’adapte aux ordinateurs, tablettes et téléphones grâce à une interface responsive.</p>
+                        </article>
+                        <article class="info-card">
+                            <div class="icon">↗</div>
+                            <h3>Évolutif</h3>
+                            <p>Change d’offre ou ajoute du stockage lorsque ton projet grandit, sans refaire ton compte.</p>
+                        </article>
+                        <article class="info-card">
+                            <div class="icon">◉</div>
+                            <h3>Suivi transparent</h3>
+                            <p>Un tableau de bord clair pour suivre ton quota, ton trafic et tes sauvegardes.</p>
+                        </article>
+                    </div>
+                </section>
+                <section class="container cta" id="contact">
+                    <div>
+                        <h2>Une question ou un problème?</h2>
+                        <p>Contactez nous et nous vous assisterons dans votre demande.</p>
+                    </div>
+                    <a class="button primary" href="mailto:yourlocaldata.support@gmail.com?subject=Réserver%20un%20emplacement">Nous contacter →</a>
+                </section>
+        </main>
+        <footer>
+            <div class="container footer-inner">
+                <span>© 2026 ServerHub. Tous droits réservés.</span>
+                <span>Emplacement privé · Gestion simple · Évolutif</span>
+            </div>
+        </footer>
+    </body>
+</html>
